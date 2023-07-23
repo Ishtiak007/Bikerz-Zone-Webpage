@@ -10,10 +10,36 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style></style>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      .font{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body class="font">
     <!-- header section -->
-    <header class=""></header>
+    <header class="max-w-screen-xl mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="text-4xl text-[#000] font font-bold">Bikerz Zone</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal items-center px-1">
+              <li><a class="text-base text-[#000] font-medium" href="">Home</a></li>
+              <li><a class="text-base text-[#000] font-medium" href="">Shop</a></li>
+              <li><a class="text-base text-[#000] font-medium" href="">News</a></li>
+              <li><a class="text-base text-[#000] font-medium" href="">Contact</a></li>
+              <li><a href=""><button class="btn active bg-[#E76F51] text-white font-bold text-lg">Log In</button></a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
